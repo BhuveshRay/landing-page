@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root{
+    --theme-primary-color:#2699FB;
+}
+*{
+    font-family: "Inter", sans-serif;
+}
+.whatsapp-btn{
+    border: 1px green solid;
+    color: green;
+}
+.whatsapp-btn:hover{
+    border: 1px green solid;
+    color: green;
+}
+.theme-btn{
+background: linear-gradient(60deg, #0ACEFE,var(--theme-primary-color));
+color: #fff;
+}
+.theme-btn:hover{
+    color: #fff;
+}
+.tagline{
+    font-weight: bold;
+    background:url(/images/underline.png) no-repeat  bottom center;
+    font-size:2.5rem;
+}
+.tagline span{
+    color:var(--theme-primary-color);
+}
+.enquiry-form{
+   max-width:410px;
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+}
+.ellipse{
+    width: 552px;
+    height: 552px;
+    border-radius: 50%;
+    background-color: #E9F5FF;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    display: none;
+}
+#disabledSelect{
+    width:76px;
+}
+.content{
+    width:100%;
+}
+.form-label{
+    width: 100%;
+}
+.main-heading{
+    width: 100%;
+    /* background: url(/images/heading-shadow.svg); */
+}
+.heading{
+    color: #43505B;
+}
+.heading h5{
+    color: #2699FB;
+}
+.highlight-container{
+    background-color: #F7FAFF;
+}
+.course-name{
+    width:100%;
+    color: #0A2134;
+    text-align: center;
+}
+.course-items{
+    background-color:#FFFFFF;
+    box-shadow:1px 1px 0px 2px #F2F4F7;
+}
+.course-items p{
+    font-size: 15px;
+}
+.certificate-container{
+    background-color: #FFFFFF;
+}
+.certificate-imge{
+   position: absolute;
+   top: 0px;
+   left:0px;
+}
+.certificate-imge img{
+    width: 100%;
+}
+.certificate-ellispe{
+    position: absolute;
+    bottom:-35px;
+    right:-10px;
+}
+.certificate-sec-part{
+height:650px;
+}
+.rectangle-container{
+    background: url(/images/Rectangle\ 577.svg) center no-repeat;
+}
+.ractangle-text{
+    width:100%;
+    /* color: #FFFFFF; */
+    color: #0A2134;
+    text-align: center;
+}
+.white-btn{
+    font-weight: bold;
+}
+.last-container{
+    width:100%;
+    color: #0A2134;
+    text-align: center;
+}
+.finish-container{
+    width:465px;
+    text-align: start;
+}
+.finish-container h5{
+    color: #2699FB;
+}
+.company-heading h1{
+    color: #0A2134;
+}
+footer{
+    background-color: #0A2540;
+    color: #FFFFFF;
+    position: relative;
+}
+.footer-line{
+position: absolute;
+top: 300px;
+left: 0px;
+}
+#footer-line{
+    width:100%;
+    height:2px;
+}
+.last-footer span{
+    border-bottom:1px #fff solid ;
+}
